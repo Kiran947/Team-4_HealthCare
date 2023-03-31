@@ -8,4 +8,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="icons8-hospital-100.png" />
+    <None Remove="icons8-hospital-96.png" />
+    <None Remove="icons8-password-key-32.png" />
+    <None Remove="icons8-user-32.png" />
+    <None Remove="images\icons8-hospital-100.png" />
+    <None Remove="images\icons8-hospital-96.png" />
+    <None Remove="images\icons8-password-key-32.png" />
+    <None Remove="images\icons8-user-32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\icons8-hospital-100.png" />
+    <Resource Include="images\icons8-hospital-96.png" />
+    <Resource Include="images\icons8-password-key-32.png" />
+    <Resource Include="images\icons8-user-32.png" />
+  </ItemGroup>
+
 </Project>
