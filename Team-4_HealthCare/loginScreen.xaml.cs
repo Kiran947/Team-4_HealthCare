@@ -21,8 +21,18 @@ namespace Team_4_HealthCare
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            
-
+            databaseConnection databaseconnection = new databaseConnection();
+            if (databaseconnection.getVaildUser(txtUserName.Text, txtpasscode.Password))
+            {
+                HomeScreen homeScreen = new HomeScreen();
+                this.Close();
+                homeScreen.Show();
+            }
+            else
+            {
+                txtUserName.BorderBrush = txtUserName_Copy.BorderBrush;
+                txtpasscode.BorderBrush = txtUserName_Copy.BorderBrush;
+            }
         }
     }
 }
