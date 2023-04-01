@@ -1,0 +1,20 @@
+{
+  "LoginLists": [
+    {
+      "userName": "Kiran01",
+      "password": "kiran01@Password"
+    },
+    {
+      "userName": "SaiKiran01",
+      "password": "Saikiran01@Password"
+    },
+    {
+      "userName": "Ravanth01",
+      "password": "Ravanth01@Password"
+    },
+    {
+      "userName": "SaiKrishna01",
+      "password": "SaiKrishna01@Password"
+    }
+  ]
+}
